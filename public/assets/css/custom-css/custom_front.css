@@ -1,0 +1,398 @@
+
+/* Color Palletes https://mycolor.space/?hex=%2358965E&sub=1 */
+
+/* Primary Color : #0B8043 */
+
+
+.section1{
+    /* Ukuran */
+    width: 100%;
+    height: 100vh;
+
+    /* Warna */
+    background: #58965E;
+    mix-blend-mode: multiply;
+
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .boxfloat{
+    width: 90%;
+    height: auto;
+    background: #EFEFEF;
+    border-radius: 10px;
+    /* margin-top: 30px; */
+}
+
+.section1 .boxfloat h3{
+    font-family: 'Sansation', arial !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    /* or 150% */
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section1 .boxfloat .contentBox{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height, or 183% */
+
+
+    color: #D0D0D0;
+
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+}
+
+.section1 .boxfloat .contentBox input{
+    margin-top: 25px;
+}
+
+.section1 .boxfloat .contentBox button{
+    margin-top: 25px;
+    height: 55px;
+}
+
+.section1 .boxfloat .contentBox .btn-buat{
+    background: #0B8043 !important;
+    border-radius: 5px;
+    color: white;
+}
+
+.section1 .boxfloat .contentBox p#s_kodepesan{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    /* identical to box height, or 236% */
+
+    text-decoration-line: underline;
+
+    color: #0B8043;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section{
+    margin-top: 40px;
+}
+
+.section hr{
+    border: 1px solid rgba(11, 128, 67, 0.5);
+}
+
+.section h3{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    /* or 115% */
+
+    text-align: center;
+
+    color: #0B8043;
+}
+
+.section2{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    /* or 115% */
+
+    text-align: center;
+    padding: 0 15px;
+}
+
+.section2 .box_harga{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background: #F1F3F4;
+    border: 1px solid #0B8043;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+.section2 .box_harga .icon{
+    flex: 1;
+    background-color: #89b0ae;
+    width: 100%;
+}
+
+
+.section2 .box_harga .text-harga{
+    flex: 3;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.section2 .box_harga .text-harga h4{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 136% */
+    text-align: left;
+    color: #000000;
+}
+
+.section2 .box_harga .text-harga p{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    text-align: left;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.section3{
+    font-family: Sansation;
+}
+
+.section3 .box_video{
+    width: 380px;
+    height: 255px;
+
+    background: #8EE2B7;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.box_text{
+    width: 380px;
+    margin: 13px auto;
+    text-align: center;
+}
+
+.box_text p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.box_text .btn-custom{
+    background: #0B8043;
+    border-radius: 10px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+
+    margin: 0 auto;
+}
+
+.section4{
+    font-family: Sansation;
+}
+
+.section4 #carouselExampleCaptions{
+    margin: 0 15px;
+}
+
+.section4 #carouselExampleCaptions .carousel-inner{
+    width: 100%;
+    height: 280px !important;
+}
+
+.section5{
+    font-family: Sansation;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.section5 .boxWhyUs{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.section5 .boxWhyUs .icon{
+    flex: 1;
+    background-color: #8EE2B7;
+    height: 100%;
+}
+
+.section5 .boxWhyUs .text{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.section5 .boxWhyUs .text h4{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height, or 123% */
+
+
+    color: #00120E;
+    text-align: start;
+}
+
+.section5 .boxWhyUs .text p{
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #00120E;
+    text-align: start;
+}
+
+.section6{
+    font-family: Sansation;
+    padding: 0 15px;
+}
+
+.section6 > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+
+
+    color: #00120E;
+}
+
+.section6 .formBuat .btn-buat{
+    background: #0B8043;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0;
+    height: 55px;
+}
+
+.section7{
+    font-family: Sansation;
+    padding: 0 15px;
+}
+
+.section7 >  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    color: #00120E;
+}
+
+.section7 .btn-buat{
+    background: #0B8043;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0;
+    height: 55px;
+}
+
+footer{
+    margin-top: 40px;
+    font-family: Sansation;
+    padding: 0 15px;
+
+    height: 250px;
+    width: 100%;
+    background: #58965E;
+    box-sizing: border-box;
+}
+
+footer hr{
+    border: 3px solid #0B8043;
+}
+
+footer p{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+
+    padding: 12px;
+}
+
+footer p span{
+    color: #DFEF22;
+}
+
+footer p#copyRight{
+    color: #DFEF22;
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .section{
+        margin-top: 50px;
+    }
+
+    .section hr{
+        width: 50%;
+    }
+
+	.section1 .boxfloat{
+        width: 50%;
+        height: 445px;
+    }
+
+    .section2 .rowBox{
+        display: flex;
+    }
+
+    .section2 .rowBox .box_harga{
+        flex-direction: column;
+        margin: 3px 10px;
+    }
+
+    .section5{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section6{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section7{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,194 @@
+body div.wrapper {
+  padding: 10px 15px;
+}
+
+div.informasi h1 {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  /* or 115% */
+  color: #0B8043;
+}
+div.informasi .detail {
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+div.informasi .detail .thumbnail {
+  flex: 1;
+  height: 100%;
+}
+div.informasi .detail .thumbnail .box_thumbnail {
+  background: #8EE2B7;
+  border-radius: 5px;
+  height: 80%;
+}
+div.informasi .detail .thumbnail p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #0B8043;
+  margin-top: 10px;
+}
+div.informasi .detail .keterangan {
+  flex: 1;
+  height: 100%;
+  margin: 3px 15px;
+}
+div.informasi .detail .keterangan p {
+  font-family: Sansation Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* or 150% */
+  color: #00120E;
+}
+div.informasi .detail .keterangan h5.label {
+  font-family: Sansation Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #58965E;
+}
+div.informasi .detail .keterangan p.ket_label {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #00120E;
+}
+
+div.divUpload {
+  height: auto;
+}
+div.divUpload h1 {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  /* or 115% */
+  color: #0B8043;
+}
+div.divUpload h1 + p {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  color: rgba(0, 18, 14, 0.5);
+}
+div.divUpload .box {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div.divUpload .box .icon {
+  width: 150px;
+  height: 150px;
+  background: rgba(208, 208, 208, 0.2);
+  border: 1px solid #D0D0D0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+div.divUpload .box p {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33px;
+  /* identical to box height, or 183% */
+  text-transform: capitalize;
+  color: #D0D0D0;
+}
+div.divUpload p#uploaded {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #3C4043;
+}
+div.divUpload div.uploaded-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div.divUpload div.uploaded-img .img-holder {
+  height: 150px;
+  width: 25%;
+  background: #8EE2B7;
+  border-radius: 10px;
+  margin: 3px 5px;
+}
+div.divUpload p#notes {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  color: rgba(0, 18, 14, 0.5);
+  margin-top: 15px;
+}
+div.divUpload div.options {
+  display: flex;
+}
+div.divUpload div.options .back {
+  flex: 1;
+  text-align: center;
+}
+div.divUpload div.options .back a {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  /* identical to box height, or 193% */
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #0B8043;
+}
+div.divUpload div.options .next {
+  flex: 1;
+}
+div.divUpload div.options .next .btn-next {
+  background: #0B8043;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  div.informasi, div.divUpload {
+    margin: 0 20px;
+  }
+
+  div.informasi .detail .keterangan p {
+    font-size: 1.5vw;
+  }
+  div.informasi .detail .keterangan h5.label {
+    font-size: 2vw;
+  }
+  div.informasi .detail .keterangan p.ket_label {
+    font-size: 16px;
+  }
+}

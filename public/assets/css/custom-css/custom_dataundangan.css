@@ -1,0 +1,207 @@
+body {
+  font-family: "Sansation", arial !important;
+}
+
+div.informasi {
+  padding: 15px;
+}
+div.informasi h1 {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  /* or 115% */
+  color: #0B8043;
+}
+div.informasi .detail {
+  display: flex;
+  height: 300px;
+}
+div.informasi .detail .thumbnail {
+  flex: 1;
+  height: 100%;
+}
+div.informasi .detail .thumbnail .box_thumbnail {
+  background: #8EE2B7;
+  border-radius: 5px;
+  height: 80%;
+}
+div.informasi .detail .thumbnail p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #0B8043;
+  margin-top: 10px;
+}
+div.informasi .detail .keterangan {
+  flex: 1;
+  height: 100%;
+  margin: 3px 15px;
+}
+div.informasi .detail .keterangan p {
+  font-family: Sansation Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* or 150% */
+  color: #00120E;
+}
+div.informasi .detail .keterangan h5.label {
+  font-family: Sansation Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #58965E;
+}
+div.informasi .detail .keterangan p.ket_label {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #00120E;
+}
+
+div.form-informasi {
+  font-family: Sansation;
+  padding: 15px;
+}
+div.form-informasi h1 + p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  color: rgba(0, 18, 14, 0.5);
+}
+div.form-informasi h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  /* or 115% */
+  color: #0B8043;
+}
+div.form-informasi p.info-mempelai {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #0B8043;
+}
+div.form-informasi form#inputInfo hr {
+  border: 1px solid rgba(11, 128, 67, 0.5);
+}
+div.form-informasi form#inputInfo .form-group label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  text-transform: capitalize;
+  color: #3C4043;
+}
+div.form-informasi form#inputInfo div.agendakegiatan {
+  display: flex;
+}
+div.form-informasi form#inputInfo div.agendakegiatan .icon-agenda {
+  background: rgba(208, 208, 208, 0.2);
+  border: 1px solid #D0D0D0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: 52px;
+  flex: 0.5;
+}
+div.form-informasi form#inputInfo div.agendakegiatan .icon-agenda h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height, or 137% */
+  text-transform: capitalize;
+  text-align: center;
+  color: #929394;
+}
+div.form-informasi form#inputInfo div.agendakegiatan .tanggal-agenda {
+  flex: 3;
+  margin-left: 10px;
+}
+div.form-informasi form#inputInfo div.agendakegiatan .tanggal-agenda hr {
+  margin-top: 0 !important;
+}
+div.form-informasi form#inputInfo div.agendakegiatan .tanggal-agenda h3 {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 33px;
+  /* identical to box height, or 183% */
+  text-transform: capitalize;
+  color: #3C4043;
+  white-space: nowrap;
+}
+div.form-informasi form#inputInfo p#note {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  color: rgba(0, 18, 14, 0.5);
+}
+div.form-informasi form#inputInfo div.options {
+  display: flex;
+}
+div.form-informasi form#inputInfo div.options .back {
+  flex: 1;
+  text-align: center;
+}
+div.form-informasi form#inputInfo div.options .back a {
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  /* identical to box height, or 193% */
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #0B8043;
+}
+div.form-informasi form#inputInfo div.options .next {
+  flex: 1;
+}
+div.form-informasi form#inputInfo div.options .next .btn-next {
+  background: #0B8043;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  div.informasi, div.form-informasi {
+    margin: 0 20px;
+  }
+
+  div.informasi .detail .keterangan p {
+    font-size: 1.5vw;
+  }
+  div.informasi .detail .keterangan h5.label {
+    font-size: 2vw;
+  }
+  div.informasi .detail .keterangan p.ket_label {
+    font-size: 16px;
+  }
+}
