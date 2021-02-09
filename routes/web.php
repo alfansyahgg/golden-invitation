@@ -14,16 +14,9 @@ use App\Http\Controllers\UndanganController;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+ Route::get("/", [UndanganController::class, 'index'])->name('home');
 
-Route::get('/helo', function(){
-    return "Hello World";
+ Route::group(["prefix"=>"undangan"], function () {
+     Route::post("/buat", [UndanganController::class, 'buatUndangan'])->name('undangan.buat');
+     Route::get("/uploadfoto", [UndanganController::class, 'uploadfoto'])->name('undangan.uploadfoto');
  });
-
- Route::group(["prefix"=>"undangan"], function(){
-     Route::get("/", [UndanganController::class, 'index'] )->name('undangan.index');
-     Route::get("/landing", [UndanganController::class, 'landing'] )->name('undangan.landing');
-     Route::get("/uploadfoto", [UndanganController::class, 'uploadfoto'] )->name('undangan.uploadfoto');
-    });

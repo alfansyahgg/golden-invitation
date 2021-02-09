@@ -13,10 +13,20 @@
           <div class="boxfloat">
             <h3>Buat Milikmu Sekarang dan Lihat Hasilnya</h3>
               <div class="contentBox">
-                  <form action="">
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+                  <form action="{{route('undangan.buat')}}" method="POST">
+                    @csrf
                       <div class="form-group">
-                          <input class="form-control form-control-lg" type="text" placeholder="Nama Kamu">
-                          <input class="form-control form-control-lg" type="text" placeholder="Nama Pasangan Kamu">
+                          <input name="namaKamu" class="form-control form-control-lg" type="text" placeholder="Nama Kamu">
+                          <input name="namaPasangan" class="form-control form-control-lg" type="text" placeholder="Nama Pasangan Kamu">
 
                           <button class="btn form-control btn-lg btn-buat">Mari Kita Buat</button>
                           <button class="btn form-control btn-lg btn-outline-success btn-koleksi">Lihat Koleksi Lain</button>

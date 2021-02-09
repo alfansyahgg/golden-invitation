@@ -366,7 +366,7 @@ footer p#copyRight{
 
 	.section1 .boxfloat{
         width: 50%;
-        height: 445px;
+        height: auto;
     }
 
     .section2 .rowBox{

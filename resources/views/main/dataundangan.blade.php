@@ -47,11 +47,11 @@
             <p class="info-mempelai">Informasi Mempelai</p>
             <div class="form-group">
                 <label for="namaLengkapPria">Nama Pengantin Pria</label>
-                <input type="text" class="form-control" id="namaLengkapPria" placeholder="Nama Lengkap Pengantin Pria">
+                <input value="<?= $namaKamu ?: '' ?>" type="text" class="form-control" id="namaLengkapPria" placeholder="Nama Lengkap Pengantin Pria">
             </div>
             <div class="form-group">
                 <label for="namaLengkapWanita">Nama Pengantin Wanita</label>
-                <input type="text" class="form-control" id="namaLengkapWanita" placeholder="Nama Lengkap Pengantin Wanita">
+                <input value="<?= $namaPasangan ?: '' ?>" type="text" class="form-control" id="namaLengkapWanita" placeholder="Nama Lengkap Pengantin Wanita">
             </div>
             <div class="form-group">
                 <label for="namaPanggilanPria">Nama Panggilan Pengantin Pria</label>

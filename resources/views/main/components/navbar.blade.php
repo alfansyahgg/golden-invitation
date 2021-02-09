@@ -1,6 +1,6 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #D9F9D9 !important;color: #58965E !important;">
-    <a class="navbar-brand" href="#">Golden Invitation</a>
+    <a class="navbar-brand" href="{{route('home')}}">Golden Invitation</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
